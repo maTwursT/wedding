@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-image {
+    background-image: url('https://source.unsplash.com/1200x800/?wedding');
+    background-size: cover;
+    background-position: center;
+}

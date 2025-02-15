@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Hochzeit</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100" tabindex="0">
+
+<!-- Navigation -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">💍 Unsere Hochzeit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#begruessung">Begrüßung</a></li>
+                <li class="nav-item"><a class="nav-link" href="#beschreibung">Beschreibung</a></li>
+                <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rsvp">RSVP</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero/Banner -->
+<section id="begruessung" class="min-vh-100 d-flex align-items-center justify-content-center text-center text-white bg-image">
+    <div class="container bg-dark bg-opacity-50 p-4 rounded">
+        <h1 class="display-3 fw-bold">Wir heiraten!</h1>
+        <p class="lead">Am 20. September 2025 in München – wir freuen uns auf euch!</p>
+        <a href="#rsvp" class="btn btn-light mt-3">Jetzt zusagen</a>
+    </div>
+</section>
+
+<!-- Beschreibung -->
+<section id="beschreibung" class="min-vh-100 d-flex flex-column justify-content-center bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Unsere Geschichte</h2>
+        <p class="lead">Wir haben uns vor fünf Jahren auf einer Sommerparty kennengelernt und seitdem viele schöne Momente miteinander geteilt. Nun möchten wir diesen besonderen Tag mit euch feiern!</p>
+    </div>
+</section>
+
+<!-- Location -->
+<section id="location" class="min-vh-100 d-flex flex-column justify-content-center bg-white">
+    <div class="container text-center">
+        <h2 class="mb-4">Die Location</h2>
+        <p class="lead">Die Feier findet im wunderschönen Schloss Nymphenburg in München statt. Wir freuen uns darauf, diesen besonderen Ort mit euch zu teilen!</p>
+        <!-- Google Maps Embed -->
+        <div class="mt-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.453542138512!2d11.506205716047264!3d48.15866897923059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7456d5c1d3b7%3A0xc7f7c7c3b3b6d3d5!2sSchloss%20Nymphenburg!5e0!3m2!1sde!2sde!4v1707900000000" 
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- RSVP-Formular -->
+<section id="rsvp" class="min-vh-100 d-flex flex-column justify-content-center bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Rückmeldung (RSVP)</h2>
+        <p class="mb-4">Bitte gebt uns Bescheid, ob ihr an unserer Hochzeit teilnehmen könnt.</p>
+        <form action="https://formspree.io/f/DEINE_FORM_ID" method="POST" class="mx-auto" style="max-width: 500px;">
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Euer Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" name="_replyto" class="form-control" placeholder="Eure E-Mail" required>
+            </div>
+            <div class="mb-3">
+                <select name="attendance" class="form-control" required>
+                    <option value="">Könnt ihr teilnehmen?</option>
+                    <option value="yes">Ja, wir sind dabei!</option>
+                    <option value="no">Leider nicht.</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <textarea name="message" class="form-control" rows="3" placeholder="Nachricht (optional)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Antwort senden</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 bg-dark text-white">
+    © 2025 Unsere Hochzeit | Wir freuen uns auf euch! 💕
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
