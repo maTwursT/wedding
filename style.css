@@ -7,3 +7,11 @@ html {
     background-size: cover;
     background-position: center;
 }
+
+#begruessung {
+    background-image: url('images/collage.png'); /* Ersetze den Platzhalter mit der tatsächlichen Bild-URL */
+    background-size: cover; /* Stellt sicher, dass das Bild den gesamten Bereich abdeckt */
+    background-position: center center; /* Bild wird immer zentriert */
+    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
+    color: white; /* Setzt den Text auf weiß für bessere Lesbarkeit */
+}
