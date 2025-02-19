@@ -20,3 +20,21 @@ html {
     font-weight: 600;
     color: #a97caa;
 }
+
+.section-title {
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    color: #a97caa;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+    z-index: 1;
+}
+
+/* Stil für den Inhalt unter der Überschrift */
+#einladung {
+    padding-top: 100px; /* Platz für die fixierte Überschrift */
+}
