@@ -215,32 +215,3 @@
 
 </body>
 </html>
-
-<script>
-    // Liste der Hintergrundbilder
-    const backgrounds = [
-        "url('images/20180802_153728.jpg')",
-        "url('images/20180810_175811.jpg')",
-        "url('images/20180818_144808.jpg')",
-        "url('images/20191019_145334.jpg')",
-        "url('images/20191022_192630.jpg')",
-        "url('images/CartoonCamera_13689127913427.jpg')",
-        "url('images/DSC_0179.JPG')",
-        "url('images/DSCF33992.jpg')",
-        "url('images/IMG_1001.JPG')",
-        "url('images/IMG_1528.JPG')",
-        "url('images/P1030140.JPG')",
-        "url('images/P1060461.JPG')"
-    ];
-
-    let currentBackground = 0;
-
-    // Funktion, um das Hintergrundbild zu wechseln
-    function changeBackground() {
-        currentBackground = (currentBackground + 1) % backgrounds.length; // Gehe zum nächsten Bild
-        document.getElementById("home").style.backgroundImage = backgrounds[currentBackground];
-    }
-
-    // Wechsel alle 5 Sekunden
-    setInterval(changeBackground, 5000);
-</script>
