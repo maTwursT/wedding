@@ -47,19 +47,3 @@ html {
     text-align: center;
     height: 100%;
 }
-
-#home {
-    position: relative;
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Füllt die Breite des Containers */
-    height: 100%; /* Deckt die gesamte Höhe des Containers ab */
-    background-image: url('images/CartoonCamera_13689127913427.jpg'); /* Dein Hintergrundbild */
-    background-size: cover; /* Das Bild wird skaliert, um den Bereich abzudecken */
-    background-position: center center; /* Bild wird zentriert */
-    z-index: -1; /* Das Bild bleibt hinter dem Inhalt */
-}
