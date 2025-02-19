@@ -21,9 +21,10 @@ html {
     color: #a97caa;
 }
 
+/* Stil für die fixierte Überschrift */
 .section-title {
     position: absolute; /* Positioniert die Überschrift absolut innerhalb des Containers */
-    top: 0; /* Überschrift am oberen Rand */
+    top: 80px; /* Platz für die fixierte Überschrift unterhalb des Headers */
     left: 0;
     width: 100%; /* Überschrift nimmt die gesamte Breite ein */
     background-color: #343a40; /* Hintergrundfarbe der Überschrift */
@@ -33,17 +34,21 @@ html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leichter Schatten für die Überschrift */
 }
 
+/* Stil für den Container und den Inhalt */
 .container {
     position: relative;
     display: flex;
     flex-direction: column; /* Elemente vertikal ausrichten */
-    justify-content: flex-start; /* Inhalt am oberen Rand ausrichten */
+    justify-content: center; /* Vertikale Ausrichtung des Inhalts */
     min-height: 100vh; /* Die gesamte Höhe des Bildschirms ausfüllen */
+    padding-top: 80px; /* Abstand, um die fixierte Überschrift nicht zu überlappen */
 }
 
+/* Stil für den Rest des Inhalts unterhalb der fixierten Überschrift */
 .content {
-    margin-top: 80px; /* Platz für die fixierte Überschrift */
+    margin-top: 50px; /* Abstand für den Inhalt unterhalb der fixierten Überschrift */
     display: flex;
+    flex-direction: column; /* Elemente vertikal anordnen */
     justify-content: center;
     align-items: center;
     text-align: center;
