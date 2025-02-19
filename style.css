@@ -9,12 +9,10 @@ html {
 }
 
 #home {
-    background-image: url('images/collage.png'); /* Ersetze den Platzhalter mit der tatsächlichen Bild-URL */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
-    color: white; /* Setzt den Text auf weiß für bessere Lesbarkeit */
+    height: 100vh; /* Volle Höhe des Viewports */
+    transition: background-image 1s ease-in-out; /* Sanfter Übergang */
 }
 
 #header-title {
