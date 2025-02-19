@@ -8,10 +8,17 @@ html {
     background-position: center;
 }
 
-#begruessung {
+#home {
     background-image: url('images/collage.png'); /* Ersetze den Platzhalter mit der tatsächlichen Bild-URL */
-    background-size: cover; /* Stellt sicher, dass das Bild den gesamten Bereich abdeckt */
-    background-position: center center; /* Bild wird immer zentriert */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
     color: white; /* Setzt den Text auf weiß für bessere Lesbarkeit */
+}
+
+#header-title {
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    color: #a97caa;
 }
