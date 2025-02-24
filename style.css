@@ -8,6 +8,13 @@ html {
     color: #a97caa;
 }
 
+#home {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Volle Höhe des Viewports */
+    transition: background-image 1s ease-in-out; /* Sanfter Übergang */
+}
+
 /* Stil für die fixierte Überschrift */
 .section-title {
     position: absolute; /* Positioniert die Überschrift absolut innerhalb des Containers */
