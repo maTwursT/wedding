@@ -4,25 +4,43 @@ html {
 
 .container {
     max-width: 1000px;
-    margin: 0 auto; /* Zentriert den Inhalt */
+    margin: 0 auto;
 }
 
-/* Allgemeine Styles */
 #home {
-    background-image: url('images/km_beach.JPG'); /* Pfad zu deinem Bild */
+    background-image: url('images/DSCF33992.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
-    background-position: center center; /* Bild bleibt immer zentriert */
-    background-attachment: fixed; /* Bild bleibt beim Scrollen an der Position */
+    background-position: center center;
+    background-attachment: fixed; 
 }
 
-/* Optionale allgemeine Anpassungen für andere Sektionen */
+.scrolling-bg {
+    background-image: url('images/23_maret_12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
-/* Wenn du einen Rahmen oder spezielle Stile für andere Sektionen möchtest */
 #einladung, #einladung2, #location, #rueckmeldung, #kontakt {
-    border: 20px solid; /* Beispiel für einen rahmen */
+    border: 20px solid;
     padding: 20px;
+}
+
+.title {
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.sub-title {
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
 }
 
 #header-title {
@@ -69,26 +87,6 @@ html {
 .button-purple:hover {
     background-color: #654a66 !important;
     border: 1px solid #654a66 !important;
-}
-
-/* Zwei Bilder in den Ecken der Sektion */
-.einladung {
-    position: relative;
-    padding: 40px;
-    border-radius: 15px;
-}
-
-
-/* Bild in der unteren rechten Ecke */
-.einladung::after {
-    content: "";
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 100px; /* Größe des Bildes */
-    height: 100px;
-    background-image: url('images/kisspng-wedding-invitation-vector-graphics-bird-clip-art-5c024d93e13a80.1039538415436548039225.png'); /* Spezielles Bild für die rechte Ecke */
-    background-size: cover;
 }
 
 .text-style {
