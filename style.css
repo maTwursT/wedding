@@ -7,6 +7,11 @@ html {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #home {
     background-image: url('images/DSCF33992.jpg');
     background-size: contain;
@@ -14,8 +19,6 @@ html {
     background-color: black;
     background-position: center center;
     background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
 }
 
 .scrolling-bg {
@@ -24,8 +27,6 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
 }
 
 #einladung, #einladung2, #location, #rueckmeldung, #kontakt {
