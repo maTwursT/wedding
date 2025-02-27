@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karo und Martin heiraten</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +22,8 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#home">Startseite</a></li>
                 <li class="nav-item"><a class="nav-link" href="#einladung">Einladung</a></li>
-                <li class="nav-item"><a class="nav-link" href="#einladung2">Fragen und Antworten</a></li>
-                <li class="nav-item"><a class="nav-link" href="#location">Orte</a></li>
+                <li class="nav-item"><a class="nav-link" href="#location">Ort</a></li>
                 <li class="nav-item"><a class="nav-link" href="#rueckmeldung">Rückmeldung</a></li>
-                <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
             </ul>
         </div>
     </div>
@@ -38,280 +37,90 @@
     </div>
 </section>
 
-<section id="einladung" class="min-vh-100 d-flex flex-column justify-content-center bg-light">
-    <div class="container text-center einladung">
-        <h2 class="heading" style="margin-bottom: 6rem;">Einladung</h2>
-        <div class="lead">Liebe Gäste,</div>
-        <br>
-        <br>
-        <div class="lead">wir möchten euch herzlich zu unserer Hochzeit am 14. Mai 2025 in Oberhausen einladen.</div>
-        <br>
-        <div class="lead">Gebt uns doch bitte zeitnah Bescheid, ob ihr diesen Tag mit uns feiern wollt.</div>
-        <br>
-        <br>
-        <div class="lead">Liebe Grüße,</div>
-        <br>
-        <div class="lead">Karo und Martin</div>
-    </div>
-</section>
-
-<section id="einladung2" class="min-vh-100 d-flex flex-column justify-content-center bg-white">
-    <div class="container text-center">
-        <h2 class="heading" style="margin-bottom: 6rem;">Fragen & Antworten</h2>
-        <div class="accordion" id="faqAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading1">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">
-                        Können wir unsere Kinder mitbringen?
-                    </button>
-                </h2>
-                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Natürlich! Wir haben eine kleine Kinderecke vorbereitet, sodass den kleinen nicht allzu langweilig wird. Zudem gibt es vor dem Cafe eine größere Wiese, die zum spielen genutzt werden kann.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                        Dürfen wir Fotos von der Hochzeit machen?
-                    </button>
-                </h2>
-                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Gerne könnt Ihr Fotos von der gesamten Veranstaltung machen. Lasst uns die geschossenen Bilder und Videos im Anschluss gerne zukommen. Weitere Infos zu Kommunikationswegen findet Ihr weiter unten unter <a class="link" href="#kontakt">Kontakt</a>.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                        Gibt es einen Dresscode?
-                    </button>
-                </h2>
-                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Formale Kleidung wäre wünschenswert.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="location" class="min-vh-100 d-flex justify-content-center align-items-center bg-white">
+<section id="einladung" class="d-flex flex-column justify-content-center bg-light">
     <div class="container">
-        <h2 class="heading text-center" style="margin-bottom: 4rem;">Orte</h2>
+        <h2 class="heading">Einladung</h2>
+        <div class="lead" style="margin: 0; text-align: justify;">
+            Hiermit möchten wir euch herzlich zu unserer Hochzeit
+        </div> 
+        <br>
+        <br>
+        <div class="text-style text-center">
+            <strong>am 14. Mai</strong>
+        </div>
+        <div class="text-style text-center">
+            <strong>um 9.30 Uhr</strong>
+        </div>
+        <div class="text-style text-center">
+            <strong>im technischen Rathaus</strong>
+        </div>
+        <div class="text-style text-center">
+            <strong>in Oberhausen</strong>
+        </div>
+        <br>
+        <br>
+        <div class="lead" style="margin: 0; text-align: justify;">
+            einladen. Im Anschluss an die Trauung würden wir euch gerne zum gemeinsamen Frühstück in das Café Jahreszeiten einladen.
+            Gebt uns bitte bis zum 16. März Bescheid, ob ihr diesen Tag mit uns feiern könnt!
+        </div>
+        <br>
+        <br>
+        <div class="lead">Wir freuen uns auf euch!</div>
+    </div>
+</section>
+
+<section id="location" class="d-flex justify-content-center align-items-center bg-white">
+    <div class="container">
+        <h2 class="heading">Ort</h2>
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex justify-content-center mb-4">
-                <div class="iframe-container w-100" style="overflow: hidden; border-radius: 15px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8635126998865!2d6.848304576503415!3d51.51571997181507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8eae7d3c4c931%3A0x67829ece942bfc76!2sTechnisches%20Rathaus!5e0!3m2!1sde!2sde!4v1739970971590!5m2!1sde!2sde" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 center-text">
-                <div class="lead"><strong>Standesamtliche Trauung</strong></div>
+            <div style="margin-bottom: 2rem;">
+                <div class="text-style"><strong>Standesamtliche Trauung</strong></div>   
                 <div class="lead">Technisches Rathaus</div>
+                <div class="lead">Bahnhofstraße 66</div>
+                <div class="lead">46145 Oberhausen</div>
+                <div class="lead">Etage X, Raum X</div>
                 <div class="lead">14. Mai 2025, 9.30 Uhr</div>
-                <div class="lead">Bahnhofstraße 66, 46145 Oberhausen, Etage X, Raum X</div>
             </div>
         </div>
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex justify-content-center mb-4">
-                <div class="iframe-container w-100" style="overflow: hidden; border-radius: 15px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d852.8475673894961!2d6.849746300355473!3d51.51504077832036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8eae8703bfe97%3A0xbfbf9a54ff611d83!2sBistro%20und%20Veranstaltungszentrum%20Jahreszeiten!5e0!3m2!1sde!2sde!4v1739971080791!5m2!1sde!2sde" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 center-text">
-                <div class="lead"><strong>Feier</strong></div>
+            <div">
+                <div class="text-style"><strong>Frühstück</strong></div>
                 <div class="lead">Bistro und Veranstaltungszentrum Jahreszeiten</div>
+                <div class="lead">An der Guten Hoffnung 8</div>
+                <div class="lead">46145 Oberhausen</div>
                 <div class="lead">14. Mai 2025, 10.30 Uhr</div>
-                <div class="lead">An der Guten Hoffnung 8, 46145 Oberhausen</div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="rueckmeldung" class="min-vh-100 d-flex flex-column justify-content-center bg-white">
-    <div class="container text-center">
-        <h2 class="heading" style="margin-bottom: 5rem;">Rückmeldung</h2>
-        <div class="mb-4 lead">Bitte gebt uns bis zum XX. April Bescheid, ob ihr an unserer Hochzeit teilnehmen könnt oder nicht.</div>
-        <form action="https://formspree.io/f/DEINE_FORM_ID" method="POST" class="mx-auto" style="max-width: 500px;">
+<section id="rueckmeldung" class="d-flex flex-column justify-content-center bg-white">
+    <div class="container ">
+        <h2 class="heading">Rückmeldung</h2>
+        <div class="mb-4 lead"></div>
+        <form action="https://formspree.io/f/mzzdlndl" method="POST" class="mx-auto" style="max-width: 500px;">
             <div class="mb-3">
+                <div style="font-weight: 500;">Kannst du / könnt ihr teilnehmen?</div>
                 <select name="attendance" class="form-select" required>
-                    <option value="">Kannst du / könnt ihr teilnehmen?</option>
+                    <option value="">---</option>
                     <option value="yes">Ja</option>
                     <option value="no">Nein</option>
                 </select>
             </div>
             <div class="mb-3">
-                <input type="text" name="name" class="form-control" placeholder="Dein Name / Eure Namen" required>
+                <div style="font-weight: 500;">Dein Name / Eure Namen</div>
+                <input type="text" name="name" class="form-control" required>
             </div>
             <div class="mb-3">
-                <input type="number" name="guests" class="form-control" placeholder="Wie viele kommen insgesamt?" required>
+                <div style="font-weight: 500;">Wie viele kommen insgesamt?</div>
+                <input type="number" name="numberOfGuests" class="form-control" required>
             </div>
-            <div class="mb-3">
-                <textarea name="message" class="form-control" rows="3" placeholder="Anmerkungen oder Wünsche"></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">Absenden</button>
+            <button type="submit" class="btn button-purple">Rückmeldung absenden</button>
         </form>
     </div>
 </section>
 
-<section id="kontakt" class="min-vh-100 d-flex flex-column justify-content-center bg-white">
-    <div class="container text-center">
-        <h2 class="heading" style="margin-bottom: 2rem;">Kontakt</h2>
-        <div class="row justify-content-center mb-1">
-            <div class="col-12 col-md-4 mb-4">
-                <img src="images/karo.jpg" alt="Braut" class="img-fluid" style="width: 300px; height: 300px; border-radius: 15px;">
-                <div class="lead"><strong>Karo</strong></div>
-                <div>Braut</div>
-                <div>
-                    <a class="link" href= "mailto: +491782380660"> 
-                        0178 / 23 80 660
-                    </a>
-                </div>
-                <div>
-                    <a class="link" href= "mailto: karolinemathieu@gmx.de"> 
-                        karolinemathieu@gmx.de
-                    </a>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <img src="images/martin.jpg" alt="Bräutigam" class="img-fluid" style="width: 300px; height: 300px; border-radius: 15px;">
-                <div class="lead"><strong>Martin</strong></div>
-                <div>Bräutigam</div>
-                <div>
-                    <a class="link" href= "mailto: +491749441857"> 
-                        0174 / 944 18 57
-                    </a>
-                </div>
-                <div>
-                    <a class="link" href= "mailto: martinkudla@gmail.com"> 
-                        martinkudla@gmail.com
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
 
-<style>
-    html {
-    scroll-behavior: smooth;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto; /* Zentriert den Inhalt */
-}
-
-/* Allgemeine Styles */
-#home {
-    background-image: url('images/hands2.jpg'); /* Pfad zu deinem Bild */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center center; /* Bild bleibt immer zentriert */
-    background-attachment: fixed; /* Bild bleibt beim Scrollen an der Position */
-}
-
-/* Styles für mobile Geräte */
-@media screen and (max-width: 768px) {
-    #home {
-        height: 100vh; /* Setzt die Höhe der Sektion auf die Höhe des Viewports */
-        background-position: center center; /* Sicherstellen, dass das Bild zentriert bleibt */
-        background-size: cover;
-    }
-
-    #home .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); /* Zentriert den Inhalt sowohl horizontal als auch vertikal */
-        color: white; /* Weißer Text für besseren Kontrast */
-        text-align: center;
-        z-index: 2; /* Stellt sicher, dass der Text über dem Bild ist */
-    }
-}
-
-/* Optionale allgemeine Anpassungen für andere Sektionen */
-
-/* Wenn du einen Rahmen oder spezielle Stile für andere Sektionen möchtest */
-#einladung, #einladung2, #location, #rueckmeldung, #kontakt {
-    border: 20px solid; /* Beispiel für einen rahmen */
-    padding: 20px;
-}
-
-#header-title {
-    font-family: "Dancing Script", serif;
-    font-weight: 600;
-    color: #a97caa;
-}
-
-.heading {
-    font-family: "Dancing Script", serif;
-    font-weight: 600;
-    color: #a97caa;
-    font-size: xx-large;
-}
-
-.section {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .section-content {
-        text-align: center;
-    }
-
-.link {
-    text-decoration: none;
-    color: #a97caa;
-}
-
-.link:hover, .link:visited {
-    color: #654a66;
-}
-
-.btn {
-    background-color: #a97caa;
-    border: #a97caa;
-}
-
-.btn:hover {
-    background-color: #654a66;
-    border: #654a66;
-}
-
-/* Zwei Bilder in den Ecken der Sektion */
-.einladung {
-    position: relative;
-    padding: 40px;
-    border-radius: 15px;
-}
-
-
-/* Bild in der unteren rechten Ecke */
-.einladung::after {
-    content: "";
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 100px; /* Größe des Bildes */
-    height: 100px;
-    background-image: url('images/kisspng-wedding-invitation-vector-graphics-bird-clip-art-5c024d93e13a80.1039538415436548039225.png'); /* Spezielles Bild für die rechte Ecke */
-    background-size: cover;
-}
-
-.center-text {
-    text-align: center;
-}
-
-</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
