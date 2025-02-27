@@ -105,8 +105,14 @@ img {
 @media screen and (max-width: 768px) {
     #home {
         height: 100vh; /* Setzt die Höhe der Sektion auf die Höhe des Viewports */
-        background-position: center center; /* Sicherstellen, dass das Bild zentriert bleibt */
         background-size: cover;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .scrolling-bg {
+        width: 100%;
+        max-width: 100%;
     }
 
     #home .container {
