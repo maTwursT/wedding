@@ -26,7 +26,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 #einladung, #einladung2, #location, #rueckmeldung, #kontakt {
