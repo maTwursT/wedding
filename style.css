@@ -17,7 +17,7 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -29,8 +29,8 @@ img {
     background-attachment: fixed;
 }
 
-#einladung, #einladung2, #location, #rueckmeldung, #kontakt {
-    border: 20px solid;
+#einladung, #location, #rueckmeldung {
+    border-top: 20px solid;
     padding: 20px;
 }
 
@@ -48,10 +48,10 @@ img {
     color: white;
 }
 
-#header-title {
+.header-title {
     font-family: "Dancing Script", serif;
     font-weight: 600;
-    color: #a97caa;
+    color: #a97caa !important;
 }
 
 .heading {
