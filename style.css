@@ -22,11 +22,11 @@ img {
 }
 
 .scrolling-bg {
-    background-image: url('images/23_maret_12.jpg');
+    background-image: url('images/1_sep_6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 #einladung, #einladung2, #location, #rueckmeldung, #kontakt {
