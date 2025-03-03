@@ -12,15 +12,6 @@ img {
     height: auto;
 }
 
-#home {
-    background-image: url('images/theater\ -\ Kopie.JPG');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 .scrolling-bg {
     background-image: url('images/1_sep_6.jpg');
     background-size: cover;
@@ -103,18 +94,6 @@ img {
 
 /* Styles für mobile Geräte */
 @media screen and (max-width: 768px) {
-    #home {
-        height: 100vh; /* Setzt die Höhe der Sektion auf die Höhe des Viewports */
-        background-size: cover;
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .scrolling-bg {
-        width: 100%;
-        max-width: 100%;
-    }
-
     #home .container {
         position: absolute;
         top: 50%;
