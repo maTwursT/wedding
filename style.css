@@ -21,9 +21,8 @@ img {
 }
 
 #einladung, #location, #rueckmeldung {
-    border-top: 20px solid;
-    padding: 20px;
-    margin-top: 20px;
+    border-top: 28px solid;
+    padding: 30px 20px;
 }
 
 .title {
