@@ -23,6 +23,7 @@ img {
 #einladung, #location, #rueckmeldung {
     border-top: 20px solid;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .title {
